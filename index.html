@@ -5,162 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Länkar | Bultens.net</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<style>
-    :root {
-        --primary-bg: #1a1a1a;
-        --secondary-bg: #2b2b2b;
-        --text-color: #f5f5f5;
-        --accent-color: #3498db;
-        --card-bg: #333;
-    }
-    body {
-        font-family: 'Roboto', sans-serif;
-        background-color: var(--primary-bg);
-        color: var(--text-color);
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 5%;
-        background-color: var(--secondary-bg);
-        border-bottom: 1px solid #444;
-    }
-    .logo {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 1.5em;
-        text-transform: uppercase;
-    }
-    nav a {
-        color: var(--text-color);
-        text-decoration: none;
-        margin-left: 25px;
-        font-weight: 400;
-        transition: color 0.3s;
-    }
-    nav a:hover,
-    nav a.active {
-        color: var(--accent-color);
-    }
-    .lang-switch {
-        background: none;
-        border: 1px solid var(--text-color);
-        color: var(--text-color);
-        padding: 8px 12px;
-        cursor: pointer;
-        font-weight: 700;
-        font-family: 'Montserrat', sans-serif;
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s;
-        margin-left: 25px;
-    }
-    .lang-switch:hover {
-        background-color: var(--accent-color);
-        border-color: var(--accent-color);
-    }
-    .hero {
-        background: var(--primary-bg);
-        padding: 80px 5%;
-        text-align: center;
-    }
-    .hero h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 3em;
-        margin: 0;
-        line-height: 1.2;
-        text-transform: uppercase;
-    }
-    .hero p {
-        font-size: 1.2em;
-        color: #ccc;
-        margin-top: 10px;
-    }
-    .container {
-        padding: 40px 5%;
-        max-width: 900px;
-        margin: auto;
-    }
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 2em;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 40px;
-        border-bottom: 2px solid var(--accent-color);
-        padding-bottom: 10px;
-    }
-    .link-category {
-        background-color: var(--secondary-bg);
-        padding: 20px;
-        border-radius: 8px;
-        margin-bottom: 25px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    .link-category h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 1.5em;
-        margin-top: 0;
-        margin-bottom: 15px;
-        color: var(--accent-color);
-    }
-
-    /* NYA OCH UPPDATERADE STILAR FÖR UNDERKATEGORIER OCH LÄNKAR */
-    .link-category h4 {
-        /* Underkategorirubrik */
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700; /* Gör texten fetare */
-        font-size: 1.1em;
-        margin-top: 25px; /* Ökat utrymme ovanför */
-        margin-bottom: 10px;
-        color: var(--text-color); /* Använd en mer neutral färg */
-        border-bottom: 1px solid #444; /* En tunn linje undertill */
-        padding-bottom: 5px;
-        
-    }
-    .link-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    .link-list a {
-        display: block;
-        padding: 10px 15px; /* Lade till lite horisontell utfyllnad */
-        color: var(--text-color);
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s, padding-left 0.3s;
-    }
-    .link-list a:hover {
-        background-color: #383838;
-        color: var(--accent-color);
-        padding-left: 20px; /* Gör så att länken "flyttar sig" lite vid hovring */
-    }
-
-    footer {
-        text-align: center;
-        padding: 30px 5%;
-        background-color: var(--secondary-bg);
-        margin-top: 40px;
-        border-top: 1px solid #444;
-    }
-    footer .social-links a {
-        color: var(--text-color);
-        margin: 0 10px;
-        font-size: 1.5em;
-        text-decoration: none;
-    }
-    footer .social-links a:hover {
-        color: var(--accent-color);
-    }
-</style>
+    <style>
+        :root {
+            --primary-bg: #1a1a1a;
+            --secondary-bg: #2b2b2b;
+            --text-color: #f5f5f5;
+            --accent-color: #3498db;
+            --card-bg: #333;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background-color: var(--secondary-bg);
+            border-bottom: 1px solid #444;
+        }
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 400;
+            transition: color 0.3s;
+        }
+        nav a:hover,
+        nav a.active {
+            color: var(--accent-color);
+        }
+        .lang-switch {
+            background: none;
+            border: 1px solid var(--text-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            cursor: pointer;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            margin-left: 25px;
+        }
+        .lang-switch:hover {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+        .hero {
+            background: var(--primary-bg);
+            padding: 80px 5%;
+            text-align: center;
+        }
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 3em;
+            margin: 0;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #ccc;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 40px 5%;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+        .link-category {
+            background-color: var(--secondary-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .link-category h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+        .link-category h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.1em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: var(--text-color);
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .link-list a {
+            display: block;
+            padding: 10px 15px;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s, padding-left 0.3s;
+        }
+        .link-list a:hover {
+            background-color: #383838;
+            color: var(--accent-color);
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 5%;
+            background-color: var(--secondary-bg);
+            margin-top: 40px;
+            border-top: 1px solid #444;
+        }
+        footer .social-links a {
+            color: var(--text-color);
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+        footer .social-links a:hover {
+            color: var(--accent-color);
+        }
+    </style>
 </head>
-<body onload="setLang('sv');">
+<body>
     <header>
         <div class="logo" data-sv="BULTENS.NET" data-en="BULTENS.NET">BULTENS.NET</div>
         <nav>
@@ -178,119 +173,110 @@
     </div>
 
     <div class="container" id="links-container">
-        </div>
+    </div>
 
     <footer id="contact">
         <p data-sv="Kontakta mig på: " data-en="Contact me at: ">Kontakta mig på: <a href="mailto:mats@bultens.net">mats@bultens.net</a></p>
         <div class="social-links">
             <a href="https://www.linkedin.com/in/matsjohnsson1972/" target="_blank">
-                <img src="/images/linkedIn_logo.png?text=LinkedIn" width="50" height="50"></a>
+                <img src="/images/linkedIn_logo.png" width="50" height="50"></a>
             <a href="https://www.deviantart.com/macsaidesign" target="_blank">
-                <img src="/images/deviantart_logo.png?text=DeviantArt" width="50" height="50"></a>
+                <img src="/images/deviantart_logo.png" width="50" height="50"></a>
             <a href="https://www.facebook.com/macsswe" target="_blank">
-                <img src="/images/facebook_logo.webp?text=Facebook" width="50" height="50"></a>
+                <img src="/images/facebook_logo.webp" width="50" height="50"></a>
         </div>
         <p style="font-size: 0.8em; margin-top: 10px;">&copy; 2025 Mats Jonsson</p>
     </footer>
-<script>
-    let currentLang = 'sv';
-    const texts = document.querySelectorAll('[data-sv]');
-    const langSwitchButton = document.querySelector('.lang-switch');
-    const htmlElement = document.querySelector('html');
-    
-    // Funktion för att sätta språk och uppdatera sidan
-    function setLang(lang) {
-        currentLang = lang;
-        htmlElement.setAttribute('lang', lang);
-        
-        texts.forEach(element => {
-            const textContent = element.getAttribute(`data-${lang}`);
-            if (textContent) {
-                element.textContent = textContent;
-            }
-        });
-        langSwitchButton.textContent = currentLang === 'sv' ? 'EN' : 'SV';
-        
-        renderLinks(currentLang);
-    }
-    
-    // Funktion för att byta språk med knappen
-    function toggleLang() {
-        const newLang = currentLang === 'sv' ? 'en' : 'sv';
-        setLang(newLang);
-    }
-    
-    // Funktion för att hämta länkar från JSON
-    async function fetchAndRenderLinks() {
-        try {
-            const response = await fetch('links.json');
-            const categories = await response.json();
-            window.linkData = categories; // Lagrar data globalt
+
+    <script>
+        let currentLang = 'sv';
+        const texts = document.querySelectorAll('[data-sv]');
+        const langSwitchButton = document.querySelector('.lang-switch');
+        const htmlElement = document.querySelector('html');
+        let linkData = null;
+
+        function setLang(lang) {
+            currentLang = lang;
+            htmlElement.setAttribute('lang', lang);
             
-            // Läs av URL-parametern för att sätta initialt språk
-            const urlParams = new URLSearchParams(window.location.search);
-            const langFromUrl = urlParams.get('lang');
-            
-            if (langFromUrl && (langFromUrl === 'sv' || langFromUrl === 'en')) {
-                setLang(langFromUrl);
-            } else {
-                setLang('sv'); // Fallback till svenska om inget språk är specificerat
-            }
-            
-        } catch (error) {
-            console.error('Kunde inte ladda länkar:', error);
-        }
-    }
-    
-    // Funktion för att rita ut länkarna på sidan
-    function renderLinks(lang, categories = null) {
-        const linksContainer = document.getElementById('links-container');
-        if (!linksContainer) return;
-        
-        if (!categories) {
-            categories = window.linkData;
-        }
-        
-        if (!categories) return; // Avbryt om data inte finns
-        
-        linksContainer.innerHTML = '';
-        
-        categories.forEach(category => {
-            const categoryDiv = document.createElement('div');
-            categoryDiv.className = 'link-category';
-            
-            const categoryTitle = document.createElement('h3');
-            categoryTitle.textContent = category[`category_${lang}`];
-            categoryDiv.appendChild(categoryTitle);
-            
-            category.subcategories.forEach(subcategory => {
-                const subcategoryTitle = document.createElement('h4');
-                subcategoryTitle.textContent = subcategory[`subcategory_${lang}`];
-                categoryDiv.appendChild(subcategoryTitle);
-                
-                const linkList = document.createElement('ul');
-                linkList.className = 'link-list';
-                
-                subcategory.links.forEach(link => {
-                    const listItem = document.createElement('li');
-                    const linkAnchor = document.createElement('a');
-                    linkAnchor.href = link.url;
-                    linkAnchor.target = '_blank';
-                    linkAnchor.textContent = link[`text_${lang}`];
-                    
-                    listItem.appendChild(linkAnchor);
-                    linkList.appendChild(listItem);
-                });
-                
-                categoryDiv.appendChild(linkList);
+            texts.forEach(element => {
+                const textContent = element.getAttribute(`data-${lang}`);
+                if (textContent) {
+                    element.textContent = textContent;
+                }
             });
-            linksContainer.appendChild(categoryDiv);
+            langSwitchButton.textContent = currentLang === 'sv' ? 'EN' : 'SV';
+            
+            if (linkData) {
+                renderLinks(currentLang, linkData);
+            }
+        }
+        
+        function toggleLang() {
+            const newLang = currentLang === 'sv' ? 'en' : 'sv';
+            setLang(newLang);
+        }
+        
+        async function fetchLinks() {
+            try {
+                const response = await fetch('links.json');
+                linkData = await response.json();
+                
+                const urlParams = new URLSearchParams(window.location.search);
+                const langFromUrl = urlParams.get('lang');
+                
+                if (langFromUrl && (langFromUrl === 'sv' || langFromUrl === 'en')) {
+                    setLang(langFromUrl);
+                } else {
+                    setLang('sv');
+                }
+            } catch (error) {
+                console.error('Kunde inte ladda länkar:', error);
+            }
+        }
+        
+        function renderLinks(lang, categories) {
+            const linksContainer = document.getElementById('links-container');
+            if (!linksContainer) return;
+            
+            linksContainer.innerHTML = '';
+            
+            categories.forEach(category => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'link-category';
+                
+                const categoryTitle = document.createElement('h3');
+                categoryTitle.textContent = category[`category_${lang}`];
+                categoryDiv.appendChild(categoryTitle);
+                
+                category.subcategories.forEach(subcategory => {
+                    const subcategoryTitle = document.createElement('h4');
+                    subcategoryTitle.textContent = subcategory[`subcategory_${lang}`];
+                    categoryDiv.appendChild(subcategoryTitle);
+                    
+                    const linkList = document.createElement('ul');
+                    linkList.className = 'link-list';
+                    
+                    subcategory.links.forEach(link => {
+                        const listItem = document.createElement('li');
+                        const linkAnchor = document.createElement('a');
+                        linkAnchor.href = link.url;
+                        linkAnchor.target = '_blank';
+                        linkAnchor.textContent = link[`text_${lang}`];
+                        
+                        listItem.appendChild(linkAnchor);
+                        linkList.appendChild(listItem);
+                    });
+                    
+                    categoryDiv.appendChild(linkList);
+                });
+                linksContainer.appendChild(categoryDiv);
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchLinks();
         });
-    }
-    
-    document.addEventListener('DOMContentLoaded', () => {
-        fetchAndRenderLinks();
-    });
-</script>
+    </script>
 </body>
 </html>
