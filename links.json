@@ -1,54 +1,61 @@
 [
   {
+    "category_sv": "AI",
+    "category_en": "AI",
+    "subcategories": [
+      {
+        "subcategory_sv": "Bildgenerering",
+        "subcategory_en": "Image Generation",
+        "links": [
+          {
+            "text_sv": "Midjourney",
+            "text_en": "Midjourney",
+            "url": "https://www.midjourney.com"
+          },
+          {
+            "text_sv": "DALL-E",
+            "text_en": "DALL-E",
+            "url": "https://openai.com/dall-e-3"
+          }
+        ]
+      },
+      {
+        "subcategory_sv": "Textgenerering",
+        "subcategory_en": "Text Generation",
+        "links": [
+          {
+            "text_sv": "ChatGPT",
+            "text_en": "ChatGPT",
+            "url": "https://chat.openai.com"
+          },
+          {
+            "text_sv": "Gemini",
+            "text_en": "Gemini",
+            "url": "https://gemini.google.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category_sv": "Webbutveckling",
     "category_en": "Web Development",
-    "links": [
+    "subcategories": [
       {
-        "text_sv": "MDN Web Docs",
-        "text_en": "MDN Web Docs",
-        "url": "https://developer.mozilla.org"
-      },
-      {
-        "text_sv": "W3Schools",
-        "text_en": "W3Schools",
-        "url": "https://www.w3schools.com"
-      },
-      {
-        "text_sv": "CSS-Tricks",
-        "text_en": "CSS-Tricks",
-        "url": "https://css-tricks.com"
-      }
-    ]
-  },
-  {
-    "category_sv": "Grafisk design",
-    "category_en": "Graphic Design",
-    "links": [
-      {
-        "text_sv": "Canva",
-        "text_en": "Canva",
-        "url": "https://www.canva.com"
-      },
-      {
-        "text_sv": "Dribbble",
-        "text_en": "Dribbble",
-        "url": "https://dribbble.com"
-      }
-    ]
-  },
-  {
-    "category_sv": "Andra intressanta sidor",
-    "category_en": "Other interesting sites",
-    "links": [
-      {
-        "text_sv": "Exempellänk 1",
-        "text_en": "Example link 1",
-        "url": "#"
-      },
-      {
-        "text_sv": "Exempellänk 2",
-        "text_en": "Example link 2",
-        "url": "#"
+        "subcategory_sv": "Grundläggande",
+        "subcategory_en": "Fundamentals",
+        "links": [
+          {
+            "text_sv": "MDN Web Docs",
+            "text_en": "MDN Web Docs",
+            "url": "https://developer.mozilla.org"
+          },
+          {
+            "text_sv": "W3Schools",
+            "text_en": "W3Schools",
+            "url": "https://www.w3schools.com"
+          }
+        ]
       }
     ]
   }

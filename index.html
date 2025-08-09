@@ -182,96 +182,100 @@
         <p style="font-size: 0.8em; margin-top: 10px;">&copy; 2025 Mats Jonsson</p>
     </footer>
 
-    <script>
-        let currentLang = 'sv';
-        const texts = document.querySelectorAll('[data-sv]');
-        const langSwitchButton = document.querySelector('.lang-switch');
-        const htmlElement = document.querySelector('html');
-        
-        function setLang(lang) {
-            currentLang = lang;
-            htmlElement.setAttribute('lang', lang);
-        
-            texts.forEach(element => {
-                const textContent = element.getAttribute(`data-${lang}`);
-                if (textContent) {
-                    element.textContent = textContent;
-                }
-            });
-            langSwitchButton.textContent = currentLang === 'sv' ? 'EN' : 'SV';
-        
-            // Uppdatera länkarna när språket byts
-            renderLinks(currentLang);
-        }
-        
-        function toggleLang() {
-            const newLang = currentLang === 'sv' ? 'en' : 'sv';
-            setLang(newLang);
-        }
-        
-        // Ny funktion för att hämta och rendera länkar från JSON
-        async function fetchAndRenderLinks() {
-            try {
-                const response = await fetch('links.json');
-                const categories = await response.json();
-                renderLinks(currentLang, categories);
-            } catch (error) {
-                console.error('Kunde inte ladda länkar:', error);
+<script>
+    let currentLang = 'sv';
+    const texts = document.querySelectorAll('[data-sv]');
+    const langSwitchButton = document.querySelector('.lang-switch');
+    const htmlElement = document.querySelector('html');
+
+    function setLang(lang) {
+        currentLang = lang;
+        htmlElement.setAttribute('lang', lang);
+
+        texts.forEach(element => {
+            const textContent = element.getAttribute(`data-${lang}`);
+            if (textContent) {
+                element.textContent = textContent;
             }
+        });
+        langSwitchButton.textContent = currentLang === 'sv' ? 'EN' : 'SV';
+
+        // Uppdatera länkarna när språket byts
+        renderLinks(currentLang);
+    }
+
+    function toggleLang() {
+        const newLang = currentLang === 'sv' ? 'en' : 'sv';
+        setLang(newLang);
+    }
+
+    // Ny funktion för att hämta och rendera länkar från JSON
+    async function fetchAndRenderLinks() {
+        try {
+            const response = await fetch('links.json');
+            const categories = await response.json();
+            renderLinks(currentLang, categories);
+        } catch (error) {
+            console.error('Kunde inte ladda länkar:', error);
         }
-        
-        // Ny funktion för att rita ut länkarna på sidan
-        function renderLinks(lang, categories = null) {
-            const linksContainer = document.getElementById('links-container');
-            if (!linksContainer) return;
-        
-            // Om inga kategorier skickas med (vid språkbyte), försök hämta dem från ett globalt objekt
-            if (!categories) {
-                if (window.linkData) {
-                    categories = window.linkData;
-                } else {
-                    // Om data inte finns, hämta den igen.
-                    fetchAndRenderLinks();
-                    return;
-                }
+    }
+
+    // Ny funktion för att rita ut länkarna på sidan
+    function renderLinks(lang, categories = null) {
+        const linksContainer = document.getElementById('links-container');
+        if (!linksContainer) return;
+
+        if (!categories) {
+            if (window.linkData) {
+                categories = window.linkData;
             } else {
-                // Spara data globalt för snabba språkbyten
-                window.linkData = categories;
+                fetchAndRenderLinks();
+                return;
             }
-        
-            linksContainer.innerHTML = ''; // Rensa befintliga länkar
-        
-            categories.forEach(category => {
-                const categoryDiv = document.createElement('div');
-                categoryDiv.className = 'link-category';
-        
-                const categoryTitle = document.createElement('h3');
-                categoryTitle.textContent = category[`category_${lang}`];
-                categoryDiv.appendChild(categoryTitle);
-        
+        } else {
+            window.linkData = categories;
+        }
+
+        linksContainer.innerHTML = ''; // Rensa befintliga länkar
+
+        categories.forEach(category => {
+            const categoryDiv = document.createElement('div');
+            categoryDiv.className = 'link-category';
+
+            const categoryTitle = document.createElement('h3');
+            categoryTitle.textContent = category[`category_${lang}`];
+            categoryDiv.appendChild(categoryTitle);
+
+            // Gå igenom varje underkategori och lägg till den
+            category.subcategories.forEach(subcategory => {
+                const subcategoryTitle = document.createElement('h4');
+                subcategoryTitle.textContent = subcategory[`subcategory_${lang}`];
+                categoryDiv.appendChild(subcategoryTitle);
+
                 const linkList = document.createElement('ul');
                 linkList.className = 'link-list';
-        
-                category.links.forEach(link => {
+
+                subcategory.links.forEach(link => {
                     const listItem = document.createElement('li');
                     const linkAnchor = document.createElement('a');
                     linkAnchor.href = link.url;
                     linkAnchor.target = '_blank';
                     linkAnchor.textContent = link[`text_${lang}`];
-                    
+
                     listItem.appendChild(linkAnchor);
                     linkList.appendChild(listItem);
                 });
-        
+
                 categoryDiv.appendChild(linkList);
-                linksContainer.appendChild(categoryDiv);
             });
-        }
-        
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchAndRenderLinks();
-            setLang('sv');
+            linksContainer.appendChild(categoryDiv);
         });
-    </script>
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        fetchAndRenderLinks();
+        setLang('sv');
+    });
+</script>
 </body>
 </html>
