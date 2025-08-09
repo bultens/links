@@ -10,12 +10,16 @@
           {
             "text_sv": "Midjourney",
             "text_en": "Midjourney",
-            "url": "https://www.midjourney.com"
+            "url": "https://www.midjourney.co",
+            "desc_sv": "Min favorit av bildskapande AIs",
+            "desc_en": "My favourite of the AI picture generators"
           },
           {
-            "text_sv": "DALL-E",
-            "text_en": "DALL-E",
-            "url": "https://openai.com/dall-e-3"
+            "text_sv": "Bing AI",
+            "text_en": "Bing AI",
+            "url": "https://www.bing.com/images/create",
+            "desc_sv": "Bra och gratis bildgenerator",
+            "desc_en": "Good free image generator"
           }
         ]
       },
@@ -26,12 +30,16 @@
           {
             "text_sv": "ChatGPT",
             "text_en": "ChatGPT",
-            "url": "https://chat.openai.com"
+            "url": "https://chat.openai.com",
+            "desc_sv": "En av de mest populära AI-assistenterna",
+            "desc_en": "One of the most popular AI assistants"
           },
           {
             "text_sv": "Gemini",
             "text_en": "Gemini",
-            "url": "https://gemini.google.com"
+            "url": "https://gemini.google.com",
+            "desc_sv": "Mycket bra, en av dom bästa gratis AI-assistenterna",
+            "desc_en": "One of the best free assistants"
           }
         ]
       }
@@ -48,12 +56,16 @@
           {
             "text_sv": "MDN Web Docs",
             "text_en": "MDN Web Docs",
-            "url": "https://developer.mozilla.org"
+            "url": "https://developer.mozilla.org",
+            "desc_sv": "En detaljerad referens för webbteknologier",
+            "desc_en": "A detailed reference for web technologies"
           },
           {
             "text_sv": "W3Schools",
             "text_en": "W3Schools",
-            "url": "https://www.w3schools.com"
+            "url": "https://www.w3schools.com",
+            "desc_sv": "Enkel guide för HTML, CSS, JavaScript, etc.",
+            "desc_en": "Simple guides for HTML, CSS, JavaScript, etc."
           }
         ]
       }

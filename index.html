@@ -125,18 +125,38 @@
             padding: 0;
             margin: 0;
         }
-        .link-list a {
-            display: block;
+        /* Uppdaterad stil för länkarna för att inkludera beskrivning */
+        .link-list li {
             padding: 10px 15px;
+            border-bottom: 1px solid #444;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .link-list li:last-child {
+            border-bottom: none;
+        }
+        .link-list li:hover {
+            background-color: #383838;
+        }
+        /* Stil för länkens text och beskrivning */
+        .link-list a {
             color: var(--text-color);
             text-decoration: none;
-            transition: background-color 0.3s, color 0.3s, padding-left 0.3s;
+            display: block;
+            font-weight: 700;
         }
         .link-list a:hover {
-            background-color: #383838;
             color: var(--accent-color);
-            padding-left: 20px;
         }
+        .link-list p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #bbb;
+            padding-top: 5px;
+            font-weight: 400;
+        }
+        /* Slut på nya stilar */
+
         footer {
             text-align: center;
             padding: 30px 5%;
@@ -235,6 +255,7 @@
             }
         }
         
+        // Uppdaterad funktion för att rendera länkar med beskrivning
         function renderLinks(lang, categories) {
             const linksContainer = document.getElementById('links-container');
             if (!linksContainer) return;
@@ -259,12 +280,19 @@
                     
                     subcategory.links.forEach(link => {
                         const listItem = document.createElement('li');
+                        
                         const linkAnchor = document.createElement('a');
                         linkAnchor.href = link.url;
                         linkAnchor.target = '_blank';
                         linkAnchor.textContent = link[`text_${lang}`];
                         
                         listItem.appendChild(linkAnchor);
+                        
+                        // Lägger till beskrivnings-paragrafen
+                        const linkDesc = document.createElement('p');
+                        linkDesc.textContent = link[`desc_${lang}`];
+                        listItem.appendChild(linkDesc);
+                        
                         linkList.appendChild(listItem);
                     });
                     
