@@ -1,0 +1,55 @@
+[
+  {
+    "category_sv": "Webbutveckling",
+    "category_en": "Web Development",
+    "links": [
+      {
+        "text_sv": "MDN Web Docs",
+        "text_en": "MDN Web Docs",
+        "url": "https://developer.mozilla.org"
+      },
+      {
+        "text_sv": "W3Schools",
+        "text_en": "W3Schools",
+        "url": "https://www.w3schools.com"
+      },
+      {
+        "text_sv": "CSS-Tricks",
+        "text_en": "CSS-Tricks",
+        "url": "https://css-tricks.com"
+      }
+    ]
+  },
+  {
+    "category_sv": "Grafisk design",
+    "category_en": "Graphic Design",
+    "links": [
+      {
+        "text_sv": "Canva",
+        "text_en": "Canva",
+        "url": "https://www.canva.com"
+      },
+      {
+        "text_sv": "Dribbble",
+        "text_en": "Dribbble",
+        "url": "https://dribbble.com"
+      }
+    ]
+  },
+  {
+    "category_sv": "Andra intressanta sidor",
+    "category_en": "Other interesting sites",
+    "links": [
+      {
+        "text_sv": "Exempellänk 1",
+        "text_en": "Example link 1",
+        "url": "#"
+      },
+      {
+        "text_sv": "Exempellänk 2",
+        "text_en": "Example link 2",
+        "url": "#"
+      }
+    ]
+  }
+]
