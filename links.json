@@ -1,128 +1,126 @@
- [
-       {
-           "category_sv": "AI",
-           "category_en": "AI",
-           "subcategories": [
-               {
-                   "subcategory_sv": "Assistent",
-                   "subcategory_en": "Assistants",
-                   "links": [
-                       {
-                           "text_sv": "OpenAI",
-                           "text_en": "OpenAI",
-                           "url": "www.openai.com",
-                           "desc_sv": "En av dom bästa alround Aierna",
-                           "desc_en": "One of the best Ais available"
-                       },
-                       {
-                           "text_sv": "Gemini",
-                           "text_en": "Gemini",
-                           "url": "https://gemini.google.com/",
-                           "desc_sv": "Mycket bra, en av dom bästa gratis",
-                           "desc_en": "One of the best free assistants "
-                       },
-                   ]
-               },
-               {
-                   "subcategory_sv": "Bilder",
-                   "subcategory_en": "Images",
-                   "links": [
-                       {
-                           "text_sv": "Bing AI",
-                           "text_en": "Bing AI",
-                           "url": "https://www.bing.com/images/create?",
-                           "desc_sv": "Bra och gratis bildgenerator",
-                           "desc_en": "Good free image generator"
-                       },
-                   ]
-               },
-               {
-                   "subcategory_sv": "Bilder / Video",
-                   "subcategory_en": "Images /  Video",
-                   "links": [
-                       {
-                           "text_sv": "MidJourney",
-                           "text_en": "MidJourney",
-                           "url": "https://www.midjourney.com/",
-                           "desc_sv": "Min favorit av bildskapande Ais",
-                           "desc_en": "My Favourite of the AI picture generators"
-                       },
-                   ]
-               },
-               {
-                   "subcategory_sv": "Bildredigerare",
-                   "subcategory_en": "Image editor",
-                   "links": [
-                       {
-                           "text_sv": "PIXLR",
-                           "text_en": "PIXLR",
-                           "url": "https://pixlr.com",
-                           "desc_sv": "Bra AI editor för bilder",
-                           "desc_en": "Good AI editor for pictures"
-                       },
-                       {
-                           "text_sv": "MS Designer",
-                           "text_en": "MS Designer",
-                           "url": "https://designer.microsoft.com/home",
-                           "desc_sv": "Bra AI editor för bilder",
-                           "desc_en": "Good AI editor for pictures"
-                       },
-                       {
-                           "text_sv": "ClipDrop",
-                           "text_en": "ClipDrop",
-                           "url": "https://clipdrop.co/",
-                           "desc_sv": "Några bra AI verktyg för bildmanipulering",
-                           "desc_en": "Some good AI tools for image manipulation"
-                       },
-                   ]
-               },
-               {
-                   "subcategory_sv": "Video",
-                   "subcategory_en": "Video",
-                   "links": [
-                       {
-                           "text_sv": "KlingAI",
-                           "text_en": "KlingAI",
-                           "url": "https://klingai.com/global/",
-                           "desc_sv": "Kraftfull Text och Picture to Video AI",
-                           "desc_en": "Powerful Text and Picture to Video AI"
-                       },
-                   ]
-               }
-           ]
-       },
-       {
-           "category_sv": "Konst",
-           "category_en": "Art",
-           "subcategories": [
-                       {
-                           "text_sv": "DeviantArt",
-                           "text_en": "DeviantArt",
-                           "url": "www.deviantart.com",
-                           "desc_sv": "Sida med både AI konst och vanlig digital konst",
-                           "desc_en": "A place for both AI and Non AI art, buy and sell digital art"
-                       },
-                   ]
-               }
-           ]
-       },
-       {
-           "category_sv": "Tryckeri",
-           "category_en": "Print shop",
-           "subcategories": [
-               {
-                   "subcategory_sv": "Klistermärken",
-                   "subcategory_en": "Stickers",
-                   "links": [
-                       {
-                           "text_sv": "PrettyGoodStickers",
-                           "text_en": "PrettyGoodStickers",
-                           "url": "https://www.prettygoodstickers.se/",
-                           "desc_sv": "Billig och riktigt bra sida för att trycka upp klistermärken - rekomenderas!",
-                           "desc_en": "Cheep and good sticker printing, recommend!"
-                       }
-                   ]
-               }
-           ]
-       }
+[
+   {
+       "category_sv": "AI",
+       "category_en": "AI",
+       "subcategories": [
+   {
+       "subcategory_sv": "Assistent",
+       "subcategory_en": "Assistants",
+       "links": [
+   {
+       "text_sv": "OpenAI",
+       "text_en": "OpenAI",
+       "url": "www.openai.com",
+       "desc_sv": "En av dom bästa alround Aierna",
+       "desc_en": "One of the best Ais available"
+   },
+   {
+       "text_sv": "Gemini",
+       "text_en": "Gemini",
+       "url": "https://gemini.google.com/",
+       "desc_sv": "Mycket bra, en av dom bästa gratis",
+       "desc_en": "One of the best free assistants "
+   }
+]
+   },
+   {
+       "subcategory_sv": "Bilder",
+       "subcategory_en": "Images",
+       "links": [
+   {
+       "text_sv": "Bing AI",
+       "text_en": "Bing AI",
+       "url": "https://www.bing.com/images/create?",
+       "desc_sv": "Bra och gratis bildgenerator",
+       "desc_en": "Good free image generator"
+   }
+]
+   },
+   {
+       "subcategory_sv": "Bilder / Video",
+       "subcategory_en": "Images /  Video",
+       "links": [
+   {
+       "text_sv": "MidJourney",
+       "text_en": "MidJourney",
+       "url": "https://www.midjourney.com/",
+       "desc_sv": "Min favorit av bildskapande Ais",
+       "desc_en": "My Favourite of the AI picture generators"
+   }
+]
+   },
+   {
+       "subcategory_sv": "Bildredigerare",
+       "subcategory_en": "Image editor",
+       "links": [
+   {
+       "text_sv": "PIXLR",
+       "text_en": "PIXLR",
+       "url": "https://pixlr.com",
+       "desc_sv": "Bra AI editor för bilder",
+       "desc_en": "Good AI editor for pictures"
+   },
+   {
+       "text_sv": "MS Designer",
+       "text_en": "MS Designer",
+       "url": "https://designer.microsoft.com/home",
+       "desc_sv": "Bra AI editor för bilder",
+       "desc_en": "Good AI editor for pictures"
+   },
+   {
+       "text_sv": "ClipDrop",
+       "text_en": "ClipDrop",
+       "url": "https://clipdrop.co/",
+       "desc_sv": "Några bra AI verktyg för bildmanipulering",
+       "desc_en": "Some good AI tools for image manipulation"
+   }
+]
+   },
+   {
+       "subcategory_sv": "Video",
+       "subcategory_en": "Video",
+       "links": [
+   {
+       "text_sv": "KlingAI",
+       "text_en": "KlingAI",
+       "url": "https://klingai.com/global/",
+       "desc_sv": "Kraftfull Text och Picture to Video AI",
+       "desc_en": "Powerful Text and Picture to Video AI"
+   },
+   {
+       "text_sv": "DeviantArt",
+       "text_en": "DeviantArt",
+       "url": "www.deviantart.com",
+       "desc_sv": "Sida med både AI konst och vanlig digital konst",
+       "desc_en": "A place for both AI and Non AI art, buy and sell digital art"
+   }
+]
+   }
+]
+   },
+   {
+       "category_sv": "Konst",
+       "category_en": "Art",
+       "subcategories": [
+]
+   },
+   {
+       "category_sv": "Tryckeri",
+       "category_en": "Print shop",
+       "subcategories": [
+   {
+       "subcategory_sv": "Klistermärken",
+       "subcategory_en": "Stickers",
+       "links": [
+   {
+       "text_sv": "PrettyGoodStickers",
+       "text_en": "PrettyGoodStickers",
+       "url": "https://www.prettygoodstickers.se/",
+       "desc_sv": "Billig och riktigt bra sida för att trycka upp klistermärken - rekomenderas!",
+       "desc_en": "Cheep and good sticker printing, recommend!"
+   }
+]
+   }
+]
+   }
 ]
