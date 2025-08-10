@@ -86,13 +86,6 @@
        "url": "https://klingai.com/global/",
        "desc_sv": "Kraftfull Text och Picture to Video AI",
        "desc_en": "Powerful Text and Picture to Video AI"
-   },
-   {
-       "text_sv": "DeviantArt",
-       "text_en": "DeviantArt",
-       "url": "www.deviantart.com",
-       "desc_sv": "Sida med både AI konst och vanlig digital konst",
-       "desc_en": "A place for both AI and Non AI art, buy and sell digital art"
    }
 ]
    }
@@ -102,6 +95,19 @@
        "category_sv": "Konst",
        "category_en": "Art",
        "subcategories": [
+   {
+       "subcategory_sv": "Övrigt",
+       "subcategory_en": "Other",
+       "links": [
+   {
+       "text_sv": "DeviantArt",
+       "text_en": "DeviantArt",
+       "url": "www.deviantart.com",
+       "desc_sv": "Sida med både AI konst och vanlig digital konst",
+       "desc_en": "A place for both AI and Non AI art, buy and sell digital art"
+   }
+]
+   }
 ]
    },
    {
