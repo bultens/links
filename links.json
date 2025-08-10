@@ -1,4 +1,4 @@
-[
+ï»¿[
    {
        "category_sv": "AI",
        "category_en": "AI",
@@ -11,14 +11,14 @@
        "text_sv": "OpenAI",
        "text_en": "OpenAI",
        "url": "www.openai.com",
-       "desc_sv": "En av dom bästa alround Aierna",
+       "desc_sv": "En av dom bÃ¤sta alround Aierna",
        "desc_en": "One of the best Ais available"
    },
    {
        "text_sv": "Gemini",
        "text_en": "Gemini",
        "url": "https://gemini.google.com/",
-       "desc_sv": "Mycket bra, en av dom bästa gratis",
+       "desc_sv": "Mycket bra, en av dom bÃ¤sta gratis",
        "desc_en": "One of the best free assistants "
    }
 ]
@@ -57,21 +57,21 @@
        "text_sv": "PIXLR",
        "text_en": "PIXLR",
        "url": "https://pixlr.com",
-       "desc_sv": "Bra AI editor för bilder",
+       "desc_sv": "Bra AI editor fÃ¶r bilder",
        "desc_en": "Good AI editor for pictures"
    },
    {
        "text_sv": "MS Designer",
        "text_en": "MS Designer",
        "url": "https://designer.microsoft.com/home",
-       "desc_sv": "Bra AI editor för bilder",
+       "desc_sv": "Bra AI editor fÃ¶r bilder",
        "desc_en": "Good AI editor for pictures"
    },
    {
        "text_sv": "ClipDrop",
        "text_en": "ClipDrop",
        "url": "https://clipdrop.co/",
-       "desc_sv": "Några bra AI verktyg för bildmanipulering",
+       "desc_sv": "NÃ¥gra bra AI verktyg fÃ¶r bildmanipulering",
        "desc_en": "Some good AI tools for image manipulation"
    }
 ]
@@ -96,14 +96,14 @@
        "category_en": "Art",
        "subcategories": [
    {
-       "subcategory_sv": "Övrigt",
+       "subcategory_sv": "Ã–vrigt",
        "subcategory_en": "Other",
        "links": [
    {
        "text_sv": "DeviantArt",
        "text_en": "DeviantArt",
        "url": "www.deviantart.com",
-       "desc_sv": "Sida med både AI konst och vanlig digital konst",
+       "desc_sv": "Sida med bÃ¥de AI konst och vanlig digital konst",
        "desc_en": "A place for both AI and Non AI art, buy and sell digital art"
    }
 ]
@@ -115,14 +115,14 @@
        "category_en": "Print shop",
        "subcategories": [
    {
-       "subcategory_sv": "Klistermärken",
+       "subcategory_sv": "KlistermÃ¤rken",
        "subcategory_en": "Stickers",
        "links": [
    {
        "text_sv": "PrettyGoodStickers",
        "text_en": "PrettyGoodStickers",
        "url": "https://www.prettygoodstickers.se/",
-       "desc_sv": "Billig och riktigt bra sida för att trycka upp klistermärken - rekomenderas!",
+       "desc_sv": "Billig och riktigt bra sida fÃ¶r att trycka upp klistermÃ¤rken - rekomenderas!",
        "desc_en": "Cheep and good sticker printing, recommend!"
    }
 ]
